@@ -1,0 +1,41 @@
+!  colors
+URxvt.depth: 32
+URxvt*foreground: #e8dfd6
+URxvt*background: [90]#021b21
+! black
+*color0: #032c36
+*color8: #065f73
+! red
+*color1: #c2454e
+*color9: #ef5847
+! green
+*color2: #7cbf9e
+*color10: #a2d9b1
+! yellow
+*color3: #8a7a63
+*color11: #beb090
+! blue
+*color4: #555d71
+*color12: #61778d
+! magenta
+*color5: #ff5879
+*color13: #ff99a1
+! cyan
+*color6: #44b5b1
+*color14: #9ed9d8
+! white
+*color7: #f2f1b9
+*color15: #f6f6c9
+! underline when default
+*colorUL: #f2f1b9
+
+URxvt*scrollBar:            false
+URxvt*font:                 xft:Tewi:pixelsize=11:antialias=false
+URxvt*perl-ext-common:      keyboard-select,url-select,clipboard
+URxvt.keysym.M-Escape:		perl:keyboard-select:activate
+URxvt.keysym.M-u:			perl:url-select:select_next
+URxvt.keysym.M-c:			perl:clipboard:copy
+URxvt.keysym.M-v:			perl:clibpard:paste
+URxvt.keysym.M-C-v:			perl:clipboard:paste_escaped
+
+URxvt.url-select.launcher:  firefox
