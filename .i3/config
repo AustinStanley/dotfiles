@@ -251,5 +251,5 @@ client.urgent		$warning $warning $foreground $warning
 #######################################################################
 #exec i3-config-wizard
 
-exec --no-startup-id  compton -b
+exec --no-startup-id  compton -f -b
 
